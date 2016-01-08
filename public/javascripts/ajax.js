@@ -60,7 +60,7 @@ app.getRecipeByAnySearch = function getRecipeByAnySearch(keyword) {
 
   var ajaxArgument = {
     type: 'get',
-    url: 'http://localhost:3000/recipes/search_all/' + keyword,
+    url: 'https://copychef.herokuapp.com/recipes/search_all/' + keyword,
     dataType: 'json',
     success: function(data) {
         console.log("success");
