@@ -4,6 +4,16 @@
       left: 30%;
       top: 5px;
   }
+  .submitbtn {
+    width: 50px;
+    height: 30px;
+    position: absolute;
+    left: 60%;
+    top: 15px;
+    background: #401F8E;
+    border: none;
+    border-radius: 6px;
+}
 .ui-autocomplete{
     background:#fff;
     width: 350px;
