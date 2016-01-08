@@ -21,7 +21,7 @@ app.getRecipeByRestaurant = function getRecipeByRestaurant(restaurant) {
 
   var ajaxArgument = {
     type: 'get',
-    url: 'http://localhost:3000/recipes/search/' + restaurant,
+    url: 'https://copychef.herokuapp.com/recipes/search/' + restaurant,
     dataType: 'json',
     success: function(data) {
         console.log("success");
